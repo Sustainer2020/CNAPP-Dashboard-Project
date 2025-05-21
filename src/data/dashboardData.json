@@ -1,0 +1,106 @@
+{
+    "categories": [
+        {
+            "name": "CSPM Executive Dashboard",
+            "widgets": [
+                {
+                    "title": "Cloud Accounts",
+                    "chartType": "pie",
+                    "id": "widget1",
+                    "data": [
+                        { "name": "Connected", "value": 2, "color": "#3b82f6" },
+                        {
+                            "name": "Not Connected",
+                            "value": 2,
+                            "color": "#d1d5db"
+                        },
+                        { "name": "Total", "value": 2, "color": "#9ca3af" }
+                    ]
+                },
+                {
+                    "title": "Cloud Account Risk Assessment",
+                    "chartType": "pie",
+                    "id": "widget2",
+                    "data": [
+                        { "name": "Failed", "value": 1689, "color": "#ef4444" },
+                        { "name": "Warning", "value": 681, "color": "#f59e0b" },
+                        {
+                            "name": "Not Available",
+                            "value": 36,
+                            "color": "#9ca3af"
+                        },
+                        { "name": "Passed", "value": 7253, "color": "#10b981" },
+                        { "name": "Total", "value": 9659, "color": "#9ca3af" }
+                    ]
+                },
+                {
+                    "title": "Widget1",
+                    "id": "widget3",
+                    "data": "Hi This is my first widget"
+                }
+            ]
+        },
+        {
+            "name": "CWPP Dashboard",
+            "widgets": [
+                {
+                    "title": "Top 5 Namespace Specific Alerts",
+                    "id": "widget1",
+                    "data": []
+                },
+                {
+                    "title": "Workload Alerts",
+                    "id": "widget2",
+                    "data": []
+                }
+            ]
+        },
+        {
+            "name": "Registry Scan",
+            "widgets": [
+                {
+                    "title": "Image Risk Assessment",
+                    "chartType": "pie",
+                    "id": "widget1",
+                    "data": [
+                        { "name": "Critical", "value": 9, "color": "#991b1b" },
+                        { "name": "High", "value": 150, "color": "#dc2626" },
+                        { "name": "Medium", "value": 542, "color": "#f97316" },
+                        { "name": "Low", "value": 769, "color": "#fcd34d" },
+                        {
+                            "name": "Not Available",
+                            "value": 20,
+                            "color": "#9ca3af"
+                        },
+                        {
+                            "name": "Total Vulnerabilities",
+                            "value": 1470,
+                            "color": "#9ca3af"
+                        }
+                    ]
+                },
+                {
+                    "title": "Image Security Issues",
+                    "chartType": "pie",
+                    "id": "widget2",
+                    "data": [
+                        { "name": "Critical", "value": 2, "color": "#991b1b" },
+                        { "name": "High", "value": 2, "color": "#dc2626" },
+                        { "name": "Medium", "value": 2, "color": "#f97316" },
+                        { "name": "Low", "value": 1, "color": "#fcd34d" },
+                        {
+                            "name": "Not Available",
+                            "value": 1,
+                            "color": "#9ca3af"
+                        },
+                        {
+                            "name": "Total Images",
+                            "value": 2,
+                            "color": "#9ca3af"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
