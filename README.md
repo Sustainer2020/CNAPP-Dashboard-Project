@@ -46,8 +46,8 @@ A customizable Cloud Native Application Protection Platform dashboard built with
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Sustainer2020/CNAPP-Dashboard-Project.git
+   cd CNAPP-Dashboard-Project
    ```
 
 2. **Install dependencies:**
