@@ -11,7 +11,7 @@ const Navbar = () => {
                     Home
                 </a>
                 <ChevronRight size={18} />
-                <a className="font-bold" href="/dashboard">
+                <a className="font-bold" href="/">
                     Dashboard V2
                 </a>
             </div>
